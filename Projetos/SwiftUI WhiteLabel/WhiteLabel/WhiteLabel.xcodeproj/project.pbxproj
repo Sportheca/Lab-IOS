@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3881A922966FCDF00A3CCCC /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3881A912966FCDF00A3CCCC /* SplashView.swift */; };
+		D3881A942967075200A3CCCC /* fitdance.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D3881A932967075200A3CCCC /* fitdance.mp4 */; };
+		D3881A98296731CB00A3CCCC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3881A97296731CB00A3CCCC /* Player.swift */; };
 		EC156DDF29527A3700DE3FD6 /* WhiteLabelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC156DDE29527A3700DE3FD6 /* WhiteLabelApp.swift */; };
 		EC156DE129527A3700DE3FD6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC156DE029527A3700DE3FD6 /* ContentView.swift */; };
 		EC156DE329527A3900DE3FD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC156DE229527A3900DE3FD6 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3881A912966FCDF00A3CCCC /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		D3881A932967075200A3CCCC /* fitdance.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = fitdance.mp4; sourceTree = "<group>"; };
+		D3881A97296731CB00A3CCCC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		EC156DDB29527A3700DE3FD6 /* WhiteLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC156DDE29527A3700DE3FD6 /* WhiteLabelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLabelApp.swift; sourceTree = "<group>"; };
 		EC156DE029527A3700DE3FD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +38,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3881A99296769A500A3CCCC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC156DDE29527A3700DE3FD6 /* WhiteLabelApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D3881A9A296769BA00A3CCCC /* SplashVideo */ = {
+			isa = PBXGroup;
+			children = (
+				D3881A932967075200A3CCCC /* fitdance.mp4 */,
+			);
+			path = SplashVideo;
+			sourceTree = "<group>";
+		};
+		D3D53B8029685F3300840173 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3881A9A296769BA00A3CCCC /* SplashVideo */,
+				EC156DE229527A3900DE3FD6 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		EC156DD229527A3700DE3FD6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +82,11 @@
 		EC156DDD29527A3700DE3FD6 /* WhiteLabel */ = {
 			isa = PBXGroup;
 			children = (
-				EC156DDE29527A3700DE3FD6 /* WhiteLabelApp.swift */,
+				D3D53B8029685F3300840173 /* Assets */,
+				D3881A99296769A500A3CCCC /* App */,
+				D3881A97296731CB00A3CCCC /* Player.swift */,
+				D3881A912966FCDF00A3CCCC /* SplashView.swift */,
 				EC156DE029527A3700DE3FD6 /* ContentView.swift */,
-				EC156DE229527A3900DE3FD6 /* Assets.xcassets */,
 				EC156DE429527A3900DE3FD6 /* Preview Content */,
 			);
 			path = WhiteLabel;
@@ -126,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC156DE629527A3900DE3FD6 /* Preview Assets.xcassets in Resources */,
+				D3881A942967075200A3CCCC /* fitdance.mp4 in Resources */,
 				EC156DE329527A3900DE3FD6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +173,8 @@
 			files = (
 				EC156DE129527A3700DE3FD6 /* ContentView.swift in Sources */,
 				EC156DDF29527A3700DE3FD6 /* WhiteLabelApp.swift in Sources */,
+				D3881A98296731CB00A3CCCC /* Player.swift in Sources */,
+				D3881A922966FCDF00A3CCCC /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
