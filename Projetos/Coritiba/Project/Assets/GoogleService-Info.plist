@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>942009383301-80ollo6gj4tj006apnbfdgam71hh4nfs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.942009383301-80ollo6gj4tj006apnbfdgam71hh4nfs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAxRruQXZMQGZuEwqMS_E_2vbvehORVwOE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>942009383301</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.coritibafootballclub.app</string>
+	<key>PROJECT_ID</key>
+	<string>coritiba-football-club</string>
+	<key>STORAGE_BUCKET</key>
+	<string>coritiba-football-club.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:942009383301:ios:be78c735d34b2e3457ecec</string>
+	<key>DATABASE_URL</key>
+	<string>https://coritiba-football-club.firebaseio.com</string>
+</dict>
+</plist>
