@@ -13,11 +13,10 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "sportscourt.fill")
-                .imageScale(.large)
+                .font(.system(size: 80))
                 .foregroundColor(.accentColor)
-                .font(.largeTitle)
             Text("Hello, OneFan!")
-                .font(.title)
+                .font(.title).bold()
         }
         .padding()
     }
@@ -26,5 +25,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
     }
 }
